@@ -1,0 +1,10 @@
+main {
+    min-height: calc(100vh - (66px + 56px));
+}
+
+.Auth_Layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}

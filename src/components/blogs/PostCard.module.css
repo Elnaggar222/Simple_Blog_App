@@ -1,0 +1,29 @@
+.postCard_Img_and_Info{
+    position: relative;
+}
+.postCard_Img_and_Info img{
+    aspect-ratio: 1.5/1;
+    object-fit: cover;
+    /* background-size: cover; */
+}
+
+.postCard_Info{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 0.5rem 1rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to top , rgba(0,0,0,0.2),rgba(0,0,0,0.05));
+    color: #FFF;
+}
+.card_Link{
+    color: #444;
+    text-decoration: none;
+}
+.card_Link:hover{
+    color: #444;
+    opacity: 0.9;
+}

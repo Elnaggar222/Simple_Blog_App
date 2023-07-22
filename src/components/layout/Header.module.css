@@ -1,0 +1,19 @@
+.header{
+
+}
+
+.header :global(.navbar-brand) img {
+    height: 40px;
+}
+
+.navLink{
+    text-decoration: none;
+    color: #bdbdbd;
+}
+.navLink:hover{
+    color: #FFF;
+}
+
+.navLink:global(.active){
+    color: #FFF;
+}
